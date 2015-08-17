@@ -22,9 +22,6 @@ h1{
   padding:86px;
 }
 
-.definition__content__words{  
-}
-
 .definition__logo{
   width: 35%;
   float: left;
@@ -49,6 +46,7 @@ h1{
 .definition__content{
   color: white;
 }
+
 .class{
   width:80%;
   margin:0px auto 105px;
@@ -60,7 +58,7 @@ h1{
 }
 
 .class__pictures__classmate{
-  padding:10px;
+  padding: 10px 10px 0px 0px;
   float:left;
 }
 
@@ -70,9 +68,11 @@ h1{
   color:white;
   font-size:12px;
   margin-top: -71px;
-  width: 210px;
+  width: 200px;
   height:20%;
-  
+  position:relative;
+  top:210px;
+  z-index:299;
 }
 .classmate__wrapper{
   position:relative;
@@ -85,15 +85,15 @@ h1{
 
 
 .classmate__wrapper:hover .class__pictures__classmate__picture{
-  width:210px;
-  height:210px;
-/*  position: absolute;
-  z-index: 99;*/
+  width:200px;
+  height:205px;
+  position: absolute;
+  z-index: 99;
+  top:70px;
 }
 
 .classmate__wrapper:hover .class__pictures__classmate__bio{
   display:block;
-  top:172px;
 }
 
 .classmate__bio__name{
