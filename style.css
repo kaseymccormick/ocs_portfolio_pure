@@ -56,7 +56,10 @@ h1{
   text-align:center;
   color:#0078ae;
 }
-
+.class__pictures {
+    left: 210px;
+    position: relative;
+}
 .class__pictures__classmate{
   padding: 10px 10px 0px 0px;
   float:left;
